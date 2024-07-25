@@ -11,6 +11,8 @@ public class mauBoss : MonoBehaviour
 
 
 
+
+
     private void Start()
     {
         luongmauhientai = luongmautoida;
