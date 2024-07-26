@@ -18,6 +18,12 @@ public class coin : MonoBehaviour
     void Update()
     {
         ccoin = PlayerPrefs.GetInt("coin");
+        if (ccoin < 0)
+        {
+            ccoin = 0;
+            PlayerPrefs.SetInt("coin", ccoin);
+        }
         textcoin.text = "" + ccoin;
     }
+
 }

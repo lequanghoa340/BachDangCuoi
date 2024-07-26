@@ -10,13 +10,22 @@ public class butonSelec : MonoBehaviour
     int coinx;
     public void pickIdex()
     {
+        coinx = PlayerPrefs.GetInt("coin");
+
+        // Check if there are enough coins
+        if (coinx < 50)
+        {
+            Debug.Log("Not enough coins to place the boat.");
+            CvaA.SetActive(false);
+            return;
+        }
+
         if (teamPlayer.activeInHierarchy)
         {
-            Debug.Log("chỗ này đã có  rồi");
+            Debug.Log("Boat is already placed.");
         }
         else
         {
-            coinx = PlayerPrefs.GetInt("coin");
             coinx -= 50;
             PlayerPrefs.SetInt("coin", coinx);
             PlayerPrefs.Save();
@@ -24,8 +33,6 @@ public class butonSelec : MonoBehaviour
             CvaA.SetActive(false);
             CvaB.SetActive(false);
         }
-
-       
     }
 
 }
