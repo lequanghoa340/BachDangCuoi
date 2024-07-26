@@ -11590,7 +11590,7 @@ MonoBehaviour:
   SFXSource: {fileID: 1645385346}
   background: {fileID: 8300000, guid: bfec5e868127ddf46953f59a863fda48, type: 3}
   clickbutton: {fileID: 8300000, guid: 50440ab81b58c744eb93cddd6c13be02, type: 3}
-  death: {fileID: 8300000, guid: ca6d1e30dbc267e46a4f69803bcdf5a1, type: 3}
+  death: {fileID: 8300000, guid: 0c09f2bc150c70c44b8d9c2297c594f7, type: 3}
   win: {fileID: 8300000, guid: a86857b0857f17949b94698ec084b8bb, type: 3}
   vothuyen: {fileID: 8300000, guid: ca6d1e30dbc267e46a4f69803bcdf5a1, type: 3}
   fire: {fileID: 8300000, guid: ba3b43743edf1c8458ff716fc8ebd0ad, type: 3}
@@ -14882,8 +14882,12 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1414306139225546258, guid: e7117fd46eecaca4d946d03ebda90c4c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 8.661923
+      objectReference: {fileID: 0}
+    - target: {fileID: 1414306139225546258, guid: e7117fd46eecaca4d946d03ebda90c4c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0231
+      value: 0.2006
       objectReference: {fileID: 0}
     - target: {fileID: 1414306139225546258, guid: e7117fd46eecaca4d946d03ebda90c4c, type: 3}
       propertyPath: m_LocalPosition.y

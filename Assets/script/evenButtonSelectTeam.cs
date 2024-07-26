@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class evenButtonSelectTeam : MonoBehaviour
@@ -9,10 +10,12 @@ public class evenButtonSelectTeam : MonoBehaviour
   
     public void seletA()
     {
-        CavasA.SetActive(true);
+        CavasA.SetActive(!CavasA.activeSelf);
     }
     public void seletB()
     {
-        CavasB.SetActive(true);
+        CavasB.SetActive(!CavasB.activeSelf);
     }
+
+
 }
