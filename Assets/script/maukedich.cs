@@ -29,7 +29,7 @@ public class maukedich : MonoBehaviour
                 animator.SetBool("des", true);
                 Invoke("wat", 0.5f);
                 watCalled = true; // Set flag to true after invoking wat
-                audioManager.PlaySFX(audioManager.death);
+                audioManager.PlaySFX(audioManager.vothuyen);
             }
         }
 
