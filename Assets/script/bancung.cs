@@ -14,7 +14,7 @@ public class bancung : MonoBehaviour
     private Vector3 firePosition;
 
     int so;
-    float CDbancung = 3;
+    float CDbancung = 2;
     AudioManager audioManager;
 
     private void Awake()
