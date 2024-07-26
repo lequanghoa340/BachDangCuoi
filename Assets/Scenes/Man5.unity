@@ -2659,9 +2659,9 @@ MonoBehaviour:
   SFXSource: {fileID: 1596542410}
   background: {fileID: 8300000, guid: bfec5e868127ddf46953f59a863fda48, type: 3}
   clickbutton: {fileID: 8300000, guid: 50440ab81b58c744eb93cddd6c13be02, type: 3}
-  death: {fileID: 8300000, guid: 0c09f2bc150c70c44b8d9c2297c594f7, type: 3}
+  death: {fileID: 8300000, guid: ca6d1e30dbc267e46a4f69803bcdf5a1, type: 3}
   win: {fileID: 8300000, guid: a86857b0857f17949b94698ec084b8bb, type: 3}
-  vothuyen: {fileID: 8300000, guid: ef87b925644ae4343ae8c16f8ea581c1, type: 3}
+  vothuyen: {fileID: 8300000, guid: ca6d1e30dbc267e46a4f69803bcdf5a1, type: 3}
   fire: {fileID: 8300000, guid: ba3b43743edf1c8458ff716fc8ebd0ad, type: 3}
   wind: {fileID: 8300000, guid: 45214330aff75964f9e1e2cccfb9198f, type: 3}
 --- !u!4 &450587051
@@ -3096,6 +3096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd9f747428f6cb64a8b0c344792d2d32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Indexmanchoix: 5
   winpanel: {fileID: 1392572416}
 --- !u!1 &511510216
 GameObject:

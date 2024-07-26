@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class createEnemy : MonoBehaviour
 {
+    float time = 15;
     public Transform spawnPoint;
     public GameObject enemy;
 
@@ -15,14 +16,19 @@ public class createEnemy : MonoBehaviour
 
     void Update()
     {
-        timecreate -= Time.deltaTime;
-        if (timecreate < 0 && enemyint>0)
+        time -=Time.deltaTime;
+        if (time <= 0)
         {
-            // Bắn viên đạn
-            FireBullet();
-            timecreate = 8f;
-            enemyint -=1;
+            timecreate -= Time.deltaTime;
+            if (timecreate < 0 && enemyint > 0)
+            {
+                // Bắn viên đạn
+                FireBullet();
+                timecreate = 8f;
+                enemyint -= 1;
+            }
         }
+       
 
     }
     void FireBullet()

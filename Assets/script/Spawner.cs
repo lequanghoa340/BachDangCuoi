@@ -28,7 +28,7 @@ public class Spawner : MonoBehaviour
         if (!initialSpawnComplete)
         {
             initialWaitTime -= Time.deltaTime;
-          //  texttimeout.text = "" + Mathf.Round(initialWaitTime);
+            texttimeout.text = "" + Mathf.Round(initialWaitTime);
             if (initialWaitTime <= 0.0f)
             {
                 initialSpawnComplete = true;

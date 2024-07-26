@@ -12,6 +12,9 @@ public class eventmain : MonoBehaviour
     public GameObject Level;
     public GameObject openLever;
     AudioManager audioManager;
+    int newbie;
+
+    public GameObject thelichsu;
 
    
     
@@ -25,8 +28,16 @@ public class eventmain : MonoBehaviour
 
     public void skipvideo()
     {
+        newbie++;
+        PlayerPrefs.SetInt("nguoimoi", newbie);
+        PlayerPrefs.Save();
         InGame.SetActive(true);
         video.SetActive(false);
         Skip.SetActive(false);
+    }
+
+    public void openSavethelichsu()
+    {
+       thelichsu.SetActive(true);
     }
 }
