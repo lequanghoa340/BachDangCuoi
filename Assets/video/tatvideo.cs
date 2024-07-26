@@ -9,12 +9,26 @@ public class tatvideo : MonoBehaviour
     public GameObject video;
     public GameObject Ingame;
     public GameObject skip;
-   
+    int newbie = 0;
+
+    private void Start()
+    {
+        newbie = PlayerPrefs.GetInt("nguoimoi");
+        if(newbie > 0)
+        {
+            skip.SetActive(false);
+            video.SetActive(false);
+            Ingame.SetActive(true);
+        }
+    }
     void Update()
     {
         time-=Time.deltaTime;
         if (time < 0)
         {
+            newbie++;
+            PlayerPrefs.SetInt("nguoimoi", newbie);
+            PlayerPrefs.Save();
             skip.SetActive(false);
             video.SetActive(false);
             Ingame.SetActive(true);

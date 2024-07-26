@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class IFWingame : MonoBehaviour
 {
-
+    public int Indexmanchoix;
     Spawner spawner;
     createEnemy createEnemy;
     int enemy1;
@@ -36,6 +36,8 @@ public class IFWingame : MonoBehaviour
 
         if (ifwin ==enemy )
         {
+            PlayerPrefs.SetInt("indexmanchoi", Indexmanchoix);
+            PlayerPrefs.Save();
             winpanel.SetActive(true);
         }
         
