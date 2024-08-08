@@ -106,7 +106,8 @@ MonoBehaviour:
   maxX: 8.565255
   minY: 3.13
   maxY: -4.3
-  speed: 2
+  speed: 1.5
+  slowSpeed: 0.1
   stopDistance: 0.1
 --- !u!114 &2948148347720056499
 MonoBehaviour:

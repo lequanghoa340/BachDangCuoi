@@ -13120,6 +13120,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TheLichSu
       objectReference: {fileID: 0}
+    - target: {fileID: 4598309342739979891, guid: 287993cb8ee343946b8efabeee2d6de6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5118669472733530600, guid: 287993cb8ee343946b8efabeee2d6de6, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
