@@ -7748,7 +7748,8 @@ MonoBehaviour:
   - {fileID: 1745651782}
   enemy: {fileID: 5115349705783027404, guid: 6caca4c4776a4024f92aa08e999e10d4, type: 3}
   startTimeBtwSpawns: 10
-  maxEnemies: 15
+  maxEnemies: 9
+  spawnIncrement: 2
   initialWaitTime: 15
 --- !u!4 &860691140
 Transform:
@@ -16818,7 +16819,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4987751665461831788, guid: 92a21273a99ba3848aa1d4615a37063e, type: 3}
       propertyPath: enemyint
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7595487679029040393, guid: 92a21273a99ba3848aa1d4615a37063e, type: 3}
       propertyPath: m_LocalPosition.x

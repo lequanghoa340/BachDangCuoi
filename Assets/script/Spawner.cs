@@ -11,7 +11,7 @@ public class Spawner : MonoBehaviour
 
     public int maxEnemies = 10;
     private int currentEnemies = 0;
-    private int spawnIncrement = 3;
+    public int spawnIncrement = 3;
 
     private bool initialSpawnComplete = false;
     public float initialWaitTime = 10f;  // ?ã thay ??i thành 10 giây
